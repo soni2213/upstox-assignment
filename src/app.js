@@ -32,6 +32,6 @@ app.listen(app.get("port"), err => {
   if (err) {
     console.log(chalk.red(err.message));
   } else {
-    console.log(chalk.green(`Server is running on port ${app.get('port')}`));
+    console.log(chalk.green(`Server is running on port ${app.get("port")}`));
   }
 });
